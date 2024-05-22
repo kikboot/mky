@@ -1,0 +1,295 @@
+
+.header a, a:hover{
+	color: #41B392;
+	text-decoration: none;
+}
+.cat-header {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+
+
+.overlay {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: block;
+} 
+
+.cat-header::before {
+    content: '';
+    opacity: .25;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.pattern {
+    background-color: #1c2026;
+    position: relative;
+    display: block;
+}
+
+element.style {
+    background-image: url(images/diy/cover.jpg);
+}
+
+.header h1{
+	letter-spacing: 15px;
+	font-size: 300%;
+}
+
+.header p{
+	color: #E7B45E !important;
+	font-size: 90%;
+	letter-spacing: 3px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #4FB382;
+;
+}
+
+.nav-pills>li>a{
+	color: #fff;
+
+}
+.header b{
+	color: white;
+}
+
+.nav-pills>li>a:hover{
+	background-color: #346270;
+}
+
+.navbar-inverse {
+    padding: 1%;
+    border-radius: 0;
+    background-color: #F5EED4;
+    border-color: #F5EED4;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+
+@media (max-width: 768px){
+	.nav-pills>li{
+		float: none;
+	}
+
+	.film_block img{
+		width: 650%;
+		border: solid 2px #B06851;
+	}
+
+	.nav-pills{
+		text-align: center;
+	}
+
+	.header h1{
+		letter-spacing: 5px;
+		font-size: 280%;
+	}
+
+	.header{
+		text-align: center;
+	}
+
+
+}
+@media (max-width: 768px){
+	.film_block img{
+	margin-bottom: 5%;
+	border-radius: 5px;
+	border: solid 3px #B06851;
+	width: 650%;
+    }
+	.NGB{
+    	height: 420px;
+    }
+}
+.clear{
+	clear: both;
+	height: 63px;
+}
+
+.hr{
+	color: white;
+}
+
+.film_block img{
+	margin-bottom: 5%;
+	border-radius: 5px;
+	border: solid 3px #B06851;
+	width: 450%;
+}
+
+.wrapper{
+	min-height: 100%;
+}
+
+html, body{
+	height: 100%;
+}
+
+.film_block{
+	text-aling: center;
+}
+
+.film_label{
+	padding: 2%;
+	margin-bottom: 4%;
+}
+
+.margin-8{
+	margin-top: 8%;
+}
+
+.panel{
+	border: none;
+}
+
+.panel-body{
+	background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading {
+	background-color: #FCB970;
+	color: white;
+	border-color: transparent;
+
+}
+
+.sidebar-header{
+	font-size: 120%;
+	letter-spacing: 2px;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #FCB970;
+    border-color: #D4571D;
+}
+.form-control{
+	font-size: 14px;
+
+}
+
+.input-lg{
+	font-size: 14px;
+}
+
+.form-control{
+    border-radius: 0px;
+}
+
+.list-group-item-warning{
+	color: #8a6d3b;
+	background-color: #f9f9f9;
+}
+
+.badge{
+	background-color: #000000;
+}
+
+.info-block{
+	font-size: 120%;
+}
+
+.info-block .badge{
+	font-size: 80%;
+}
+
+.info-block span{
+	margin-right: 3%;
+}
+
+.table tbody>tr>td.vert-aling{
+	vertical-align: middle;
+}
+textarea.form-control{
+	height: 200px;
+}
+
+footer{
+	color: #F5EED4;
+	background: #F5EED4;
+	padding: 17px 0 18px 0;
+	border-top: 1px solid black;
+
+}
+
+footer a{
+	color: #999;
+}
+
+footer a:hover{
+	color: #efefef;
+}
+
+.loader {
+	text-transform: uppercase;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	letter-spacing: .1em;
+	font-size: calc(var(--index) * 2.8);
+	position: absolute;
+	font-weight: 200;
+	text-align: center;
+	opacity: .9;
+	margin-top: .2em;
+}
+.loader span {
+	display: block;
+	font-family: Helvetica, sans-serif;
+	font-size: calc(var(--index) * .75);
+	margin-top: 5px;
+}
+
+.loaded .gallery {
+	opacity: 1;
+}
+.loaded .header span {
+	opacity: 0;
+}
+.NGB {
+    margin-bottom: 5%;
+    background: linear-gradient(to top right, #e3c0a1 0%, #f4f4c1 90%);
+    padding: 5%;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.NGB img {
+    float: left;
+    margin-right: 2%;
+    border-radius: 5px;
+    border: solid 5px #dad7d5;
+    width: 25%;
+}
+
+.button {
+    background-color: #7268ad;
+    padding: 2%;
+    color: white;
+    border-radius: 5px;
+    float: right;
+    margin-top: 5%;
+    clear: both;
+    font-size: 0.8em;
+}
+
+.gilp{
+	padding: 12px 22px;
+	clear: both;
+
+}
+
+
+
